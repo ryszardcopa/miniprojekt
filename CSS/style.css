@@ -1,0 +1,134 @@
+*,*:before, *:after {
+box-sizing: border-box;
+}
+
+
+body{
+    
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    list-style: circle;
+}
+
+img{
+    max-width: 100%;
+    height: auto
+}
+
+/*conteiner*/
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+header{
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+
+
+.brand a,
+.brand img 
+{
+    display: block;
+    height: 100px;
+    width: auto; }
+
+
+
+/*Menu*/
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin:0 5px;
+}
+
+nav a:hover {
+    background:black;
+    color: white;
+}
+
+.slider {
+    display:block;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    justify-content: space-between
+}
+
+
+/*article*/
+
+article {
+    width: 70%;
+    padding: 30px;
+}
+
+
+/*asside*/
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-left: 1px solid darkblue;
+
+}
+
+
+/*widgt*/
+
+.widget {
+	margin-bottom: 40px;
+}
+
+.widget img {
+	float: left;
+	margin: 0 12px 5px 0;
+}
+
+.widget ul {
+	list-style-type: square;
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+
+.widget li {
+    margin-bottom: 15px;
+
+}
+
+/*footer*/
+
+footer {
+    background: white;
+    border-top: solid white;
+    padding: 22px 15px;
+    text-align: center;
+
+}
+
+footer p{
+    margin: 0;
+}
+
